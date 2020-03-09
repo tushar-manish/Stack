@@ -4,7 +4,7 @@ public class Stack_Main {
         st.push(10);
         st.push(20);
         st.push(30);
-
+        st.pop();
         System.out.println(st.peek());
     }
 }

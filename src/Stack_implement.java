@@ -19,6 +19,9 @@ public class Stack_implement {
         if(!isempty()){
             top = top.next;
         }
+        else{
+            System.out.println("Stack is underflow");
+        }
     }
 
     public int peek(){
