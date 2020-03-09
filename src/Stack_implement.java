@@ -15,5 +15,7 @@ public class Stack_implement {
         top = ns;
     }
 
-
+    public int peek(){
+        return top.data;
+    }
 }
