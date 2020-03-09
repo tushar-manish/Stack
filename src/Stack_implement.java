@@ -15,6 +15,12 @@ public class Stack_implement {
         top = ns;
     }
 
+    public void pop(){
+        if(!isempty()){
+            top = top.next;
+        }
+    }
+
     public int peek(){
         return top.data;
     }
