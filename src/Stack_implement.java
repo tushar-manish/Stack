@@ -9,5 +9,11 @@ public class Stack_implement {
         return top==null;
     }
 
+    public void push(int data){
+        Node ns = new Node(data);
+        if (isempty()){
+            ns = top;
 
+        }
+    }
 }
