@@ -11,9 +11,9 @@ public class Stack_implement {
 
     public void push(int data){
         Node ns = new Node(data);
-        if (isempty()){
-            ns = top;
-
-        }
+        ns.next = top;
+        top = ns;
     }
+
+
 }
