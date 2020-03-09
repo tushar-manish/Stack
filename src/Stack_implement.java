@@ -5,5 +5,9 @@ public class Stack_implement {
         top = null;
     }
 
+    public boolean isempty(){
+        return top==null;
+    }
+
 
 }
